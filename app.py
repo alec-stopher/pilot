@@ -22,7 +22,7 @@ pygame.init()
 SQUARE_SIZE = 100
 WIDTH, HEIGHT = SQUARE_SIZE * 10, SQUARE_SIZE * 10
 
-background = pygame.image.load('final_stratego_map.png')
+background = pygame.image.load('final_game_map.png')
 background = pygame.transform.scale(background, (WIDTH, HEIGHT))  # Resize image to fit window
 
 # Create the window
